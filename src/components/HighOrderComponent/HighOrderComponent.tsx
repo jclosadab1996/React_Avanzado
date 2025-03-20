@@ -18,8 +18,8 @@ const UserWithLoading = withLoading(UserComponent);
 export const ParentComponent = () => {
   return (
     <div>
-      <UserWithLoading isLoading={true} name="Teffcode" />
-      <UserWithLoading isLoading={false} name="Teffcode" />
+      <UserWithLoading isLoading={true} name="Camilo Dev" />
+      <UserWithLoading isLoading={false} name="Sophia" />
     </div>
   );
 };
